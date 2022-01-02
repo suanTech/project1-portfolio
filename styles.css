@@ -40,19 +40,22 @@ a {
   color: white;
 }
 a:hover {
-  color: rgb(209, 205, 206);
-  background-color: rgba(97, 136, 207, 0.6);
+  background-color: auto;
+  filter: invert(80%);
+  mix-blend-mode: difference;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: none;
   min-height: 25px;
-  padding: 10px;
+  padding: 8px;
   position: fixed;
+  color: white;
   text-align: center;
+  filter: invert(3%);
+  mix-blend-mode: difference;
 }
 .nav {
   display: flex;
@@ -87,6 +90,7 @@ header {
   overflow: visible;
   padding-top: 200px;
   max-width: 1920px;
+  min-height: 566px;
 }
 header {
   line-height: 1.5;
@@ -126,6 +130,17 @@ header .profile-image:hover {
   font-size: 12px;
   margin-bottom: 20px;
 }
+
+.experience {
+  font-size: 3em;
+  letter-spacing: 0.5em;
+  text-decoration-line: overline;
+  text-decoration-style: wavy;
+  padding-top: 195px;
+  padding-bottom: 60px;
+  background: none;
+}
+
 .card {
   margin: 30px;
   max-width: 500px;
@@ -145,14 +160,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #b4179f;
+  background: #83dae4;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: rgb(97, 136, 207);
+  background: #e483ce;
 }
 
 footer {
