@@ -33,7 +33,7 @@ a {
   color: white;
 }
 a:hover {
-  background-color: auto;
+  background-color: transparent;
   filter: invert(80%);
   mix-blend-mode: difference;
 }
@@ -159,6 +159,12 @@ header .profile-image:hover {
   width: 100%;
   top: 248px;
 }
+
+.contact-image {
+  width: 130px;
+  margin-top: 15px;
+}
+
 .card {
   margin: 0 30px;
   max-width: 500px;
